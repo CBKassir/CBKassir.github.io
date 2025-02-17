@@ -1,6 +1,6 @@
 // If you'd like to add some interactivity, such as opening the links in a new tab
 document.querySelector('.btn-outline:nth-child(1)').addEventListener('click', function() {
-  window.location.href = 'mailto:your-email@example.com';
+  window.location.href = 'mailto:christoph.kassir@mail.utoronto.ca';
 });
 
 document.querySelector('.btn-outline:nth-child(2)').addEventListener('click', function() {
@@ -8,5 +8,5 @@ document.querySelector('.btn-outline:nth-child(2)').addEventListener('click', fu
 });
 
 document.querySelector('.btn-outline:nth-child(3)').addEventListener('click', function() {
-  window.open('https://linkedin.com/in/yourusername', '_blank');
+  window.open('https://www.linkedin.com/in/christophkassir/', '_blank');
 });
