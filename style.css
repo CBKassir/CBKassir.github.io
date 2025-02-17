@@ -1,4 +1,26 @@
+/* Header Styles */
+header {
+  background: linear-gradient(to right, #007bff, #00aaff);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 3rem; /* Larger font size */
+  font-weight: 800; /* Bolder text */
+  text-transform: uppercase; /* All uppercase */
+  letter-spacing: 3px; /* More letter spacing */
+  animation: textGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 10px #007bff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+  }
+  100% {
+    text-shadow: 0 0 20px #00aaff, 0 0 40px #00aaff, 0 0 50px #007bff;
+  }
+}
+
 /* Global Styles */
+
 body {
   font-family: Arial, sans-serif;
 }
