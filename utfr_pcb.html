@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bare-Metal SPI Driver</title>
+  <link rel="stylesheet" href="theme.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, var(--bg-gradient-start), var(--bg-gradient-end));
+      color: var(--text-color);
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section.project-content {
+      padding: 30px;
+      margin: 30px auto;
+      background-color: #ffffffee;
+      border-radius: 12px;
+      max-width: 1100px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    .project-description {
+      margin-bottom: 25px;
+    }
+    .project-description h2 {
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .project-description p {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .project-images img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .project-images img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    button {
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      margin-top: 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    button:hover {
+      background: var(--secondary-color);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>High-Voltage EV PCB</h1>
+  </header>
+  
+  <section class="project-content">
+    <div class="project-description">
+      <h2>Overview</h2>
+      
+      <p>Evaluation PCB for the electric vehicle's insulation monitoring device (IMD).</p>
+      <p>End-to-end: schematic + design + test.</p>
+      <p>Stack: Altium. Tested with under dangerously.</p>
+      <p>Co-designed with Shuhan Lei.</p>
+    </div>
+    
+    <div class="project-images">
+      <img src="images/utfr_pcb/utfr_pcb_1.png" alt="utfr_pcb_1">
+      <img src="images/utfr_pcb/utfr_pcb_2.png" alt="utfr_pcb_2">
+      <img src="images/utfr_pcb/utfr_pcb_3.png" alt="utfr_pcb_3">
+
+    </div>
+    
+    <button onclick="window.location.href='index.html'">Return to Portfolio</button>
+  </section>
+
+</body>
+</html>

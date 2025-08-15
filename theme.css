@@ -1,0 +1,18 @@
+/* theme.css — Global theme variables
+   Change these to update the site's look instantly.
+
+   Nice color combos:
+   - Blue:       #1e90ff (primary), #4682b4 (secondary)
+   - Red:        #e53935 (primary), #b71c1c (secondary)
+   - Green:      #43a047 (primary), #2e7d32 (secondary)
+   - Purple:     #8e24aa (primary), #6a1b9a (secondary)
+   - Orange:     #fb8c00 (primary), #ef6c00 (secondary)
+*/
+
+:root {
+  --primary-color: #1e90ff;   /* default blue */
+  --secondary-color: #4682b4;
+  --bg-gradient-start: #e3f2fd;
+  --bg-gradient-end: #f0f8ff;
+  --text-color: #333;
+}
