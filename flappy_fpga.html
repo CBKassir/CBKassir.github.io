@@ -53,15 +53,15 @@
       text-decoration: underline;
     }
     .project-images {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
       margin-top: 20px;
     }
     .project-images img {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
+      height: 240px;
+      width: auto;
+      border-radius: 8px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
@@ -99,7 +99,7 @@
       <p>Digital design implementation of Flappy Bird on the DE1-SoC.</p>
       <p>Features RTL code for VGA graphics, PS2 interface, audio, and adaptive gameplay.</p>
       <p>Stack: Verilog, Modelsim, Quartus.</p>
-      <p>Co-designed with Sean Nishanthan.</p>
+      <p>Collaborators: Sean Nishanthan.</p>
     </div>
     
     <div class="project-images">
