@@ -25,6 +25,18 @@
       margin: 0;
       font-size: 2.5rem;
     }
+    /* new image container below header */
+    .title-image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .title-image {
+      max-width: 600px;   /* large but responsive */
+      width: 90%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
     h2 {
       color: var(--primary-color);
       border-bottom: 2px solid var(--primary-color);
@@ -117,8 +129,27 @@
     <h1>✪ Christoph Kassir ✪</h1>
   </header>
 
+  <!-- image moved outside of header -->
+  <div class="title-image-container">
+    <figure>
+      <img src="images/title.png" alt="Title Image" class="title-image">
+      <figcaption class="title-caption"><br><b>Winner: ECE295 Radio PCB Award</b></figcaption>
+    </figure>
+  </div>
+
   <section id="projects">
-    <h2>PCB</h2>
+
+    <h2>✪ Featured</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="images/cmos_hpc/cmos_hpc_0.png" alt="CMOS HPC">
+        <h3>High-Performance Compute Software for CMOS Design</h3>
+        <p>Continually receving new updates!</p>
+        <a href="projects/cmos_hpc.html"><button>View Project</button></a>
+      </div>
+    </div>
+
+    <h2>✪ PCB</h2>
     <div class="projects">
       <div class="project-card">
         <img src="images/radio_pcb/radio_pcb_0.png" alt="Radio Modulation PCB">
@@ -146,7 +177,7 @@
       </div>
     </div>
 
-    <h2>FPGA</h2>
+    <h2>✪ FPGA</h2>
     <div class="projects">
       <div class="project-card">
         <img src="images/flappy_fpga/flappy_fpga_0.png" alt="FPGA Flappy">
@@ -156,7 +187,7 @@
       </div>
     </div>
 
-    <h2>Embedded</h2>
+    <h2>✪ Embedded</h2>
     <div class="projects">
       <div class="project-card">
         <img src="images/ble_nrf/ble_nrf_0.png" alt="BLE NRF">
@@ -178,7 +209,7 @@
       </div>
     </div>
 
-    <h2>ML & Web</h2>
+    <h2>✪ ML & Web</h2>
     <div class="projects">
       <div class="project-card">
         <img src="images/hmm_transformer/hmm_transformer_0.png" alt="HMM Transformer">
