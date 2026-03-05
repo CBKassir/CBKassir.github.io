@@ -154,29 +154,37 @@
 
   <header>
     <h1>✪ Christoph Kassir ✪</h1>
-    <p>Welcome! This is a dynamic site. New progress always incoming!</p>
+    <p>Welcome! This is a dynamic site.</p>
   </header>
 
   <!-- new skills section -->
   <section id="skills">
     <h2>✪ Skills</h2>
     <div class="skills-container">
-      <div class="skill"><i class="fas fa-microchip"></i> Cadence Virtuoso</div>
+      <div class="skill"><i class="fas fa-microchip"></i> Cadence Virtuoso, SKILL</div>
       <div class="skill"><i class="fas fa-microchip"></i> Xilinx Vivado, Intel Quartus</div>
-      <div class="skill"><i class="fas fa-microchip"></i>Verilog-A, SystemVerilog </i> </div>
+      <div class="skill"><i class="fas fa-microchip"></i>SystemVerilog, Verilog</i> </div>
       <div class="skill"><i class="fas fa-code"></i> TCL, Bash </div>
-      <div class="skill"><i class="fas fa-bolt"></i> Altium</div>
-      <div class="skill"><i class="fas fa-code"></i> Linux, UNIX </div>
+      <div class="skill"><i class="fas fa-code"></i> Linux </div>
       <div class="skill"><i class="fas fa-code"></i> C++, C </div>
-      <div class="skill"><i class="fas fa-code"></i> ARM & RISC-V Assembly </div>
+      <div class="skill"><i class="fas fa-code"></i> RISC-V </div>
       <div class="skill"><i class="fas fa-code"></i> Python, PyTorch </div>
-      <div class="skill"><i class="fas fa-wave-square"></i> MATLAB & Simulink</div>
       <div class="skill"><i class="fas fa-database"></i> Git, Docker</div>
+      <div class="skill"><i class="fas fa-wave-square"></i> MATLAB, Simulink</div>
+      <div class="skill"><i class="fas fa-bolt"></i> Altium</div>
+
     </div>
   </section>
 
 
   
+  <div class="title-image-container">
+    <figure>
+      <img src="images/title.png" alt="Title Image" class="title-image">
+      <figcaption class="title-caption"><br><b>1st Place: UofT IEEE × Cognichip ASIC Hack</b></figcaption>
+    </figure>
+  </div>
+
   <div style="text-align:center; margin-top: 25px;">
     <a href="resume/Christoph_Kassir.pdf" download>
       <button>
@@ -184,119 +192,87 @@
       </button>
     </a>
   </div>
-  
-  <div class="title-image-container">
-    <figure>
-      <img src="images/title.png" alt="Title Image" class="title-image">
-      <figcaption class="title-caption"><br><b>Winner: ECE295 Radio PCB In-Course Award</b></figcaption>
-    </figure>
-  </div>
+
+
 
   <section id="projects">
 
-    <h2>✪ IC</h2>
+    <h2>✪ IC & EDA</h2>
     <div class="projects">
       <div class="project-card">
-        <img src="images/virtuoso_bgstab/virtuoso_bgstab_0.png" alt="Bandgap Reference Stability">
-        <h3>Bandgap Reference Stability Analysis</h3>
-        <p>Cadence Virtuoso. Milestone subproject in the <i>IC Design, Verification, Layout</i> course.</p>
-        <a href="projects/virtuoso_bgstab.html"><button>View Project</button></a>
+        <img src="images/ic_neurocore/ic_neurocore_0.png" alt="Neurocore">
+        <h3>Neurocore IC: ASIC + Analog IC</h3>
+        <p>130nm SkyPDK ASIC + 65nm GF analog IC.</i> course.</p>
+        <a href="projects/ic_neurocore.html"><button>View Project</button></a>
       </div>
       <div class="project-card">
-        <img src="images/cmos_hpc/cmos_hpc_0.png" alt="CMOS HPC">
-        <h3>Zspice, the High-Performance Compute Software for CMOS Design</h3>
-        <p>Continually receving new updates!</p>
-        <a href="projects/cmos_hpc.html"><button>View Project</button></a>
+        <img src="images/eda_cmoshpc/eda_cmoshpc_0.png" alt="CMOS HPC">
+        <h3>CMOS High-Performance Simulator</h3>
+        <p>Ongoing project. Written in C++17</p>
+        <a href="projects/eda_cmoshpc.html"><button>View Project</button></a>
       </div>
     </div>
 
     <h2>✪ FPGA</h2>
     <div class="projects">
       <div class="project-card">
-        <img src="images/fft_fpga/fft_fpga_0.png" alt="FFT DSP">
+        <img src="images/fpga_fft/fpga_fft_0.png" alt="FFT DSP">
         <h3>FPGA Fast-Fourier Transform</h3>
         <p>Fully-pipelined 8-point FFT targeted for ASIC synthesis.</p>
-        <a href="projects/fft_fpga.html"><button>View Project</button></a>
+        <a href="projects/fpga_fft.html"><button>View Project</button></a>
       </div>
       <div class="project-card">
-        <img src="images/flappy_fpga/flappy_fpga_0.png" alt="FPGA Flappy">
-        <h3>FPGA Flappy</h3>
-        <p>Digital design game.</p>
-        <a href="projects/flappy_fpga.html"><button>View Project</button></a>
+        <img src="images/fpga_flappy/fpga_flappy_0.png" alt="FPGA Flappy">
+        <h3>FPGA Flappy (ECE241)</h3>
+        <p>Memory IPs and FSMs for VGA, audio, input, and logic.</p>
+        <a href="projects/fpga_flappy.html"><button>View Project</button></a>
+      </div>
+    </div>
+
+
+    <h2>✪ Embedded</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="images/embedded_onboard/embedded_onboard_0.png" alt="Onboard Embedded">
+        <h3>Embedded Wireless Audio Communications (ECE295)</h3>
+        <p>HW/SW co-design for analog-digital-analog modulation.</p>
+        <a href="projects/embedded_onboard.html"><button>View Project</button></a>
+      </div>
+      <div class="project-card">
+        <img src="images/embedded_wireless/embedded_wireless_0.png" alt="Wireless Embedded">
+        <h3>Embedded Wireless Audio Communications (ECE243)</h3>
+        <p>Custom peer-to-peer protocol.</p>
+        <a href="projects/embedded_wireless.html"><button>View Project</button></a>
       </div>
     </div>
 
     <h2>✪ PCB</h2>
     <div class="projects">
       <div class="project-card">
-        <img src="images/radio_pcb/radio_pcb_0.png" alt="Radio Modulation PCB">
-        <h3>Radio Modulation PCB</h3>
-        <p>HW/SW co-design for Analog-Digital-Analog modulation.</p>
-        <a href="projects/radio_pcb.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/heater_pcb/heater_pcb_0.png" alt="Clinical Heating PCB">
-        <h3>Clinical Heating PCB</h3>
+        <img src="images/pcb_heater/pcb_heater_0.png" alt="Clinical Heating PCB">
+        <h3>Clinical Heating PCB (Myant)</h3>
         <p>Clinical body heater.</p>
-        <a href="projects/heater_pcb.html"><button>View Project</button></a>
+        <a href="projects/pcb_heater.html"><button>View Project</button></a>
       </div>
       <div class="project-card">
-        <img src="images/neuro_pcb/neuro_pcb_0.png" alt="Neurostimulator PCB">
-        <h3>Neurostimulator PCB</h3>
+        <img src="images/pcb_neuro/pcb_neuro_0.png" alt="Neurostimulator PCB">
+        <h3>Neurostimulator PCB (Myant)</h3>
         <p>Clinical nervous system stimulator.</p>
-        <a href="projects/neuro_pcb.html"><button>View Project</button></a>
+        <a href="projects/pcb_neuro.html"><button>View Project</button></a>
       </div>
       <div class="project-card">
-        <img src="images/utfr_pcb/utfr_pcb_0.png" alt="High-Voltage EV PCB">
-        <h3>High-Voltage EV PCB</h3>
+        <img src="images/pcb_utfr/pcb_utfr_0.png" alt="High-Voltage EV PCB">
+        <h3>High-Voltage EV PCB (UTFR)</h3>
         <p>Safety circuit breakout board.</p>
-        <a href="projects/utfr_pcb.html"><button>View Project</button></a>
+        <a href="projects/pcb_utfr.html"><button>View Project</button></a>
       </div>
     </div>
 
-    <h2>✪ Embedded</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="images/ble_nrf/ble_nrf_0.png" alt="BLE NRF">
-        <h3>Bluetooth Low Energy & PWM on NRF</h3>
-        <p>First major update since 2016.</p>
-        <a href="projects/ble_nrf.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/audio_embedded/audio_embedded_0.png" alt="Embedded Wireless Audio Communications">
-        <h3>Embedded Wireless Audio Communications</h3>
-        <p>Custom peer-to-peer protocol.</p>
-        <a href="projects/audio_embedded.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/franklin_stm/franklin_stm_0.png" alt="Bare-Metal SPI Driver">
-        <h3>Bare-Metal SPI Driver</h3>
-        <p>With DMA and interrupts.</p>
-        <a href="projects/franklin_stm.html"><button>View Project</button></a>
-      </div>
-    </div>
 
-    <h2>✪ ML & Web</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="images/hmm_transformer/hmm_transformer_0.png" alt="HMM Transformer">
-        <h3>HMM Transformer</h3>
-        <p>Forecasting fatalities with HMM-tuned transformers.</p>
-        <a href="projects/hmm_transformer.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/cancer_ml/cancer_ml_0.png" alt="Cancer ML">
-        <h3>Cancer ML</h3>
-        <p>Machine/deep learning for early breast cancer diagnosis.</p>
-        <a href="projects/cancer_ml.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/portfolio_web/portfolio_web_0.png" alt="Porfolio Website">
-        <h3>Porfolio Website</h3>
-        <p>Personal webpage!</p>
-        <a href="projects/portfolio_web.html"><button>View Project</button></a>
-      </div>
-    </div>
+
+
+
+
   </section>
 
   <section id="contact">
