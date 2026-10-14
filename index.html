@@ -159,19 +159,19 @@
 
   <!-- new skills section -->
   <section id="skills">
-    <h2>✪ Skills</h2>
+    <h2>✪ Keywords</h2>
     <div class="skills-container">
-      <div class="skill"><i class="fas fa-microchip"></i> Cadence Virtuoso, SKILL</div>
-      <div class="skill"><i class="fas fa-microchip"></i> Xilinx Vivado, Intel Quartus</div>
-      <div class="skill"><i class="fas fa-microchip"></i>SystemVerilog, Verilog</i> </div>
-      <div class="skill"><i class="fas fa-code"></i> TCL, Bash </div>
-      <div class="skill"><i class="fas fa-code"></i> Linux </div>
-      <div class="skill"><i class="fas fa-code"></i> C++, C </div>
-      <div class="skill"><i class="fas fa-code"></i> RISC-V </div>
-      <div class="skill"><i class="fas fa-code"></i> Python, PyTorch </div>
-      <div class="skill"><i class="fas fa-database"></i> Git, Docker</div>
-      <div class="skill"><i class="fas fa-wave-square"></i> MATLAB, Simulink</div>
-      <div class="skill"><i class="fas fa-bolt"></i> Altium</div>
+      <div class="skill"><i class="fas fa-microchip"></i> Analog/Mixed-Signal IC Design</div>
+      <div class="skill"><i class="fas fa-microchip"></i> AMS Layout</div>
+      <div class="skill"><i class="fas fa-microchip"></i> Common-Lane SERDES</div>
+
+      <div class="skill"><i class="fas fa-bolt"></i> TSMC 2nm GAAFET/NSFET</div>
+      <div class="skill"><i class="fas fa-bolt"></i> TSMC 3nm & 16nm FinFET</div>
+      <div class="skill"><i class="fas fa-bolt"></i> IHP 130nm SiGe HBT</div>
+      <div class="skill"><i class="fas fa-bolt"></i> GF 65nm MOSFET</div>
+
+      <div class="skill"><i class="fas fa-bolt"></i> Cadence Virtuoso</div>
+      <div class="skill"><i class="fas fa-wave-square"></i> Spectre Simulator</div>
 
     </div>
   </section>
@@ -181,7 +181,7 @@
   <div class="title-image-container">
     <figure>
       <img src="images/title.png" alt="Title Image" class="title-image">
-      <figcaption class="title-caption"><br><b>1st Place: UofT IEEE × Cognichip ASIC Hack</b></figcaption>
+      <figcaption class="title-caption"><br><b>🏆 1st Place: UofT IEEE × Cognichip - IC Hack</b></figcaption>
     </figure>
   </div>
 
@@ -197,41 +197,90 @@
 
   <section id="projects">
 
-    <h2>✪ IC & EDA</h2>
+    <h2>✪ Internships</h2>
     <div class="projects">
       <div class="project-card">
+        <img src="images/internships/mrvl.png" alt="Marvell">
+        <h3>Marvell Technology</h3>
+        <p>Photonic Fabric™: Owner of two custom RX SERDES layouts, custom powergrids, AI automation</p>
+      </div>
+      <div class="project-card">
+        <img src="images/internships/myant.png" alt="Myant">
+        <h3>Myant Medtech</h3>
+        <p>Skiin™ medtech: Power electronics, FPGA, firmware</p>
+      </div>
+      <div class="project-card">
+        <img src="images/internships/dnd.png" alt="DND">
+        <h3>Department of National Defense</h3>
+        <p>Bayesian optimization for predictive analytics</p>
+      </div>
+     <div class="project-card">
+        <img src="images/internships/blank.png" alt="">
+        <h3>2x UHN Research</h3>
+        <p>One electronics, one ML, both funded</p>
+      </div>
+    </div>
+
+    <h2>✪ Projects: Analog IC & Design</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="images/ic_frostbyte/ic_frostbyte_0.png" alt="Frostbyte">
+        <h3>FROSTBYTE: HBT ULNA IC [⭐Tape-Out Greenlit]</h3>
+        <p>Targetting IHP130nm, operating in cryostat and subthreshold/weak-injection</p>
+        <a href="projects/ic_frostbyte.html"><button>View Project</button></a>
+      </div>
+      <div class="project-card">
         <img src="images/ic_neurocore/ic_neurocore_0.png" alt="Neurocore">
-        <h3>Neurocore IC: ASIC + Analog IC</h3>
-        <p>130nm SkyPDK ASIC + 65nm GF analog IC.</i> course.</p>
+        <h3>Neurocore: Mixed-Signal IC [Sim] + ASIC [⭐Tapeout]</h3>
+        <p>🏆 Custom ADC architecure (GF65nm) + digital DSP (Sky130nm)</p>
         <a href="projects/ic_neurocore.html"><button>View Project</button></a>
       </div>
       <div class="project-card">
         <img src="images/eda_cmoshpc/eda_cmoshpc_0.png" alt="CMOS HPC">
-        <h3>CMOS High-Performance Simulator</h3>
-        <p>Ongoing project. Written in C++17.</p>
+        <h3>EKV Equation Modeling Engine</h3>
+        <p>Passion project on-pause for R&D, written in C++17</p>
         <a href="projects/eda_cmoshpc.html"><button>View Project</button></a>
       </div>
     </div>
 
-    <h2>✪ FPGA & HLS</h2>
+    <h2>✪ Projects: Other</h2>
     <div class="projects">
       <div class="project-card">
         <img src="images/fpga_fft/fpga_fft_0.png" alt="FFT DSP">
         <h3>FPGA Fast-Fourier Transform</h3>
-        <p>HLS vs RTL comparison.</p>
+        <p>HLS vs RTL comparison</p>
         <a href="projects/fpga_fft.html"><button>View Project</button></a>
       </div>
       <div class="project-card">
         <img src="images/fpga_flappy/fpga_flappy_0.png" alt="FPGA Flappy">
         <h3>FPGA Flappy (ECE241)</h3>
-        <p>Memory IPs and FSMs for VGA, audio, input, and logic.</p>
+        <p>Several memory IPs and FSMs</p>
         <a href="projects/fpga_flappy.html"><button>View Project</button></a>
       </div>
-    </div>
+    
 
 
-    <h2>✪ Embedded</h2>
-    <div class="projects">
+
+      <div class="project-card">
+        <img src="images/pcb_heater/pcb_heater_0.png" alt="Clinical Heating PCB">
+        <h3>Clinical Heating PCB (Myant)</h3>
+        <p>High-voltage clinical body heater</p>
+        <a href="projects/pcb_heater.html"><button>View Project</button></a>
+      </div>
+      <div class="project-card">
+        <img src="images/pcb_neuro/pcb_neuro_0.png" alt="Neurostimulator PCB">
+        <h3>Neurostimulator PCB (Myant)</h3>
+        <p>High-voltage clinical nervous system stimulator</p>
+        <a href="projects/pcb_neuro.html"><button>View Project</button></a>
+      </div>
+      <div class="project-card">
+        <img src="images/pcb_utfr/pcb_utfr_0.png" alt="High-Voltage EV PCB">
+        <h3>High-Voltage EV PCB (UTFR)</h3>
+        <p>Safety circuit breakout board.</p>
+        <a href="projects/pcb_utfr.html"><button>View Project</button></a>
+      </div>
+
+
       <div class="project-card">
         <img src="images/embedded_onboard/embedded_onboard_0.png" alt="Onboard Embedded">
         <h3>Embedded Wireless Audio Communications (ECE295)</h3>
@@ -245,30 +294,6 @@
         <a href="projects/embedded_wireless.html"><button>View Project</button></a>
       </div>
     </div>
-
-    <h2>✪ PCB</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="images/pcb_heater/pcb_heater_0.png" alt="Clinical Heating PCB">
-        <h3>Clinical Heating PCB (Myant)</h3>
-        <p>Clinical body heater.</p>
-        <a href="projects/pcb_heater.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/pcb_neuro/pcb_neuro_0.png" alt="Neurostimulator PCB">
-        <h3>Neurostimulator PCB (Myant)</h3>
-        <p>Clinical nervous system stimulator.</p>
-        <a href="projects/pcb_neuro.html"><button>View Project</button></a>
-      </div>
-      <div class="project-card">
-        <img src="images/pcb_utfr/pcb_utfr_0.png" alt="High-Voltage EV PCB">
-        <h3>High-Voltage EV PCB (UTFR)</h3>
-        <p>Safety circuit breakout board.</p>
-        <a href="projects/pcb_utfr.html"><button>View Project</button></a>
-      </div>
-    </div>
-
-
 
 
 
