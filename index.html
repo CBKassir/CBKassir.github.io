@@ -312,8 +312,12 @@
   </section>
 
   <footer>
-    <p>&copy; 2025</p>
+    <p>&copy; <span id="year"></span></p>
   </footer>
 
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
 </body>
 </html>
